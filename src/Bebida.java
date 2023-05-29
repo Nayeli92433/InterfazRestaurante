@@ -1,14 +1,13 @@
 public class Bebida {
-    private static int cont=0;
-    private int id;
     private String nombre;
     private String descripcion;
     private String precio;
-    public Bebida(String nombre, String descripcion, String precio) {
-        this.id= cont++;
+    private String tipoBebida;
+    public Bebida(String nombre, String descripcion, String precio, String tipoBebida) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio = precio;
+        this.tipoBebida= tipoBebida;
     }
 
     public String getNombre() {
@@ -23,6 +22,7 @@ public class Bebida {
         return precio;
     }
 
-
-
+    public String getTipoBebida() {
+        return tipoBebida;
+    }
 }

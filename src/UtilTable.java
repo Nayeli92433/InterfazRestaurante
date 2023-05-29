@@ -1,5 +1,5 @@
 public class UtilTable {
-    static final String [] titulos={"Nombre ", "Apellido", "Telefono", "INE", "Genero", "Carrera", "Semestre", "Matricula"};
+    static final String [] titulos={"Nombre", "Descripcion", "Precio", "Tipo"};
 
 
 }
